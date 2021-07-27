@@ -3,6 +3,9 @@ import { withRouter } from "react-router-dom";
 
 import "./menu-item.style.scss";
 
+//esta pagina se puede hacer la navegacion interna 
+//a la pagina de donde se esta enviando
+
 const MenuItem = ({ title, imageUrl, size, linkUrl, history, match }) => (
   <div
     className={`${size} menu-item`}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils";
 
 //ReactComponent lo puedo llamar
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+import { ReactComponent as Logo } from "../../assets/crown3.svg";
 
 import "./header.style.scss";
 
